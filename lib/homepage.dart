@@ -24,6 +24,106 @@ class HomePage extends StatelessWidget {
       'montant': 20000,
       'debit': false,
     },
+    {
+      'date': '07-01-2025',
+      'montant': 20000,
+      'debit': false,
+    },
+    {
+      'date': '07-01-2025',
+      'montant': 20000,
+      'debit': false,
+    },
+    {
+      'date': '07-01-2025',
+      'montant': 20000,
+      'debit': false,
+    },
+    {
+      'date': '07-01-2025',
+      'montant': 20000,
+      'debit': false,
+    },
+    {
+      'date': '07-01-2025',
+      'montant': 20000,
+      'debit': false,
+    },
+    {
+      'date': '07-01-2025',
+      'montant': 20000,
+      'debit': false,
+    },
+    {
+      'date': '07-01-2025',
+      'montant': 20000,
+      'debit': false,
+    },
+    {
+      'date': '07-01-2025',
+      'montant': 20000,
+      'debit': false,
+    },
+    {
+      'date': '07-01-2025',
+      'montant': 20000,
+      'debit': false,
+    },
+    {
+      'date': '06-01-2025',
+      'montant': 50000,
+      'debit': false,
+    },
+    {
+      'date': '07-01-2025',
+      'montant': 20000,
+      'debit': false,
+    },
+    {
+      'date': '07-01-2025',
+      'montant': 20000,
+      'debit': false,
+    },
+    {
+      'date': '07-01-2025',
+      'montant': 20000,
+      'debit': false,
+    },
+    {
+      'date': '07-01-2025',
+      'montant': 20000,
+      'debit': false,
+    },
+    {
+      'date': '07-01-2025',
+      'montant': 20000,
+      'debit': false,
+    },
+    {
+      'date': '07-01-2025',
+      'montant': 20000,
+      'debit': false,
+    },
+    {
+      'date': '07-01-2025',
+      'montant': 20000,
+      'debit': false,
+    },
+    {
+      'date': '07-01-2025',
+      'montant': 20000,
+      'debit': false,
+    },
+    {
+      'date': '07-01-2025',
+      'montant': 20000,
+      'debit': false,
+    },
+    {
+      'date': '07-01-2025',
+      'montant': 20000,
+      'debit': false,
+    },
   ];
 
 
@@ -52,8 +152,13 @@ class HomePage extends StatelessWidget {
                           padding: EdgeInsets.all(10),
                           margin: EdgeInsets.fromLTRB(20, 5, 20, 5),
                           decoration: BoxDecoration(
-                            color: Colors.white60,
+                            color: Colors.white,
                             borderRadius: BorderRadius.circular(5),
+                            boxShadow: [BoxShadow(
+                              color: Colors.black12,
+                              offset: Offset(2, 2),
+                              blurRadius: 5,
+                            )],
                           ),
 
                           child: Row(
@@ -61,7 +166,6 @@ class HomePage extends StatelessWidget {
                               children: [
                                 Text(tr['date']),
                                 Text(tr['montant'].toString()),
-                                Icon(Icons.more_vert),
                               ],
                           )
 
